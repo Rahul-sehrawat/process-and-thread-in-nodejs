@@ -1,5 +1,5 @@
 
-#Process in Node.js
+# Process in Node.js
 
 PROCESS: A process in Node.js refers to an instance of the Node.js runtime that can be executed independently. Each Node.js process has its own memory space, global objects, modules, and event loop.
 
@@ -10,7 +10,7 @@ Create Multiple Processes: The Cluster module in Node.js is designed specificall
 The primary purpose of the Cluster module is to distribute incoming connection requests (e.g., HTTP requests) across a pool of workers, allowing a Node.js server to handle multiple requests concurrently. This is achieved by forking the main Node.js process into multiple workers using a master/worker architecture.
 
 
-#Thread :-
+# Thread :-
 
 Node.js, by default, uses a single-threaded, event-driven architecture, meaning it utilizes a single thread (event loop) to execute JavaScript code. This single thread processes I/O operations (like file system and network operations) and asynchronous events.
 
