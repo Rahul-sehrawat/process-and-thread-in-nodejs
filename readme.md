@@ -18,3 +18,7 @@ However, Node.js does use additional threads from a thread pool managed by the l
 
 It is also possible to create multiple threads by utilizing Worker Threads, a module provided by Node.js for handling heavy CPU-bound computation and parallel processing.
 
+
+#Nodejs Architecture
+
+![nodejs Architecture](images/nodejs_Architecture.png)
